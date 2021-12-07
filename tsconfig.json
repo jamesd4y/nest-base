@@ -1,0 +1,49 @@
+{
+  "include": [
+    "./src/**/*",
+    "next-env.d.ts",
+    "./types/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules/*"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "isolatedModules": false,
+    "noEmit": false,
+    "allowJs": false,
+    "jsx": "preserve",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "pretty": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "./types"
+    ],
+  }
+}
